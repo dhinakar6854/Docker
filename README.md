@@ -5,30 +5,34 @@ Basically there are a few new Linux kernel features (“namespaces” and “cgr
 
 Linux Kernel supports two interesting features that laid the foundation for the Container Technology.
 
-1.Namespace and
+1.Namespace
 
-2.Control Group a.k.a CGroups
+2.Control Group / CGroups
+
+# Namespaces
+
 
 Latest version of Linux kernels supports about 8 types of Namespaces.
 
-1.PID namespace
+1. PID namespace
 
-2.Network namespace
+2. Network namespace
 
-3.Mount namespace
+3. Mount namespace
 
-4.IPC namespace
+4. IPC namespace
 
-5.UTS namespace
+5. UTS namespace
 
-6.User namespace
+6. User namespace
 
-7.CGroup namespace
+7. CGroup namespace
 
-8.Time namespace
+8. Time namespace
 
-Namespace helps in isolating the resources used by a process from the other processes running in different namespaces.
-
+- Namespace helps in isolating the resources used by a process from the other processes running in different namespaces.
+- Control Groups helps in applying container specific resource usage restrictions
+---
 
 # Repo to learn Docker with examples. Contributions are most welcome.
 
